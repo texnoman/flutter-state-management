@@ -1,0 +1,29 @@
+name: fake_posts
+description: Fake Posts APP
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  bloc: ^6.1.1
+  flutter_bloc: ^6.1.1
+  dio: ^3.0.10
+  equatable: ^1.2.5
+  intl: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
